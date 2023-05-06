@@ -24,6 +24,7 @@ a::after {
   width: 100%;
   border-bottom: 1px solid;
   opacity: 0;
+  /* margin-bottom: 10px; */
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(0,1);

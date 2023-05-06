@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 // custom animation. this will reveal navbar when it's in viewport
 import { revealVariants } from '../utils/motion'
 // our logo
-import logo from '../cp.png'
+// import logo from '../cp.png'
 
 const Navbar = () => {
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
     whileInView="show"
     sx={{display: 'flex', justifyContent: 'space-between'}}> 
           <Link to="/">
-            <img width={60} src={logo} alt="logo" />
+            {/* <img width={60} src={logo} alt="logo" /> */}
           </Link>
         <AiOutlineMenu size={30} style={{display: 'none'}}/> 
         <Stack direction={{ xs: 'column', md: 'row' }} gap={{ xs: "0px", md: '25px'}} fontSize={22}>

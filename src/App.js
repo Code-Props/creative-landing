@@ -30,7 +30,7 @@ function App() {
     // create wrapper to add padding in the left and right side
     <Box px={{xs: '1rem', lg: '4rem'}} py='2rem'>
       {/* this is navbar if you are using vs code just Ctrl + click and you will navigated to the file */}
-      <Navbar />
+      {/* <Navbar /> */}
       {/* The Routes component acts as a container for defining routes, and the Route components define individual routes with their corresponding paths and components to render. also make sure you wrap app in BrowserRouter go into index.js import { BrowserRouter } from 'react-router-dom' and wrap the app  */}
       <Routes>
         {/* This defines a route with a path of "/" for navigate to it we have Link component in navbar <Link to="/">Home</Link> same for all 4 */}

@@ -1,6 +1,5 @@
 {
-  "name": "creative-landing",
-  "homepage": "https://creative-landing.codeprops.com/",
+  "name": "creative-landing-starter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
